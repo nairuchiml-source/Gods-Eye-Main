@@ -20,7 +20,7 @@ const getApiBaseUrl = () => {
   if (Platform.OS === 'android') {
     // If running on Android emulator, use 10.0.2.2
     // If running on physical Android device, replace with your machine's IP
-    return `http://10.0.2.2:8000/api`;
+    return `http://192.168.0.104:8000/api`;
   }
   
   // iOS simulator and physical iOS devices can use 127.0.0.1
